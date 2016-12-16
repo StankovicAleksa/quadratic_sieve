@@ -1,0 +1,2 @@
+g++ -g -Wall -c candidates.cpp	
+Makefile:21: recipe for target 'candidates.o' failed

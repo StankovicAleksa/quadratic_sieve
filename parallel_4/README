@@ -1,0 +1,10 @@
+Project in High Performance Computing class at EPFL. The purpose of the project is examination of parallelization properties for quadratic sieve algorithm of Carl Pomerance. 
+Author of the project is Aleksa Stankovic. For setup of parameters look into init.cpp file.
+
+For compilation call:
+make
+
+Project can be run using
+mpi-exec -n $NUMBER_OF_CORES main
+
+or by calling sieve.slurm script with sbatch command
